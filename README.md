@@ -8,6 +8,8 @@ No 3 separate working ULRS:
 
 ### npm run build
 Just one index.hml file, no **index1.html, no index2.html** :cry:
-:sunny: Desiderata : 3 separate html host pages (index.hml, index1.hml, index2.hml) each pointing to a different javascript entry point
+
+#### Desiderata :sunny: 
+3 separate html host pages (index.hml, index1.hml, index2.hml) each pointing to a different javascript entry point
 
 
