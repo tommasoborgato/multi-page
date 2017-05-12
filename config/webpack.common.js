@@ -57,22 +57,27 @@ module.exports = {
       {} // a map of your routes
     ),
 
+    /*
     new webpack.optimize.CommonsChunkPlugin({
       name: ['app', 'app1', 'app2', 'vendor', 'polyfills']
     }),
+    */
 
     new HtmlWebpackPlugin({
       template: 'src/index.html',
+      filename: 'index.html',
       chunks: ['app', 'vendor', 'polyfills']
     }),
 
     new HtmlWebpackPlugin({
       template: 'src/index1.html',
+      filename: 'index1.html',
       chunks: ['app1', 'vendor', 'polyfills']
     }),
 
     new HtmlWebpackPlugin({
       template: 'src/index2.html',
+      filename: 'index2.html',
       chunks: ['app2', 'vendor', 'polyfills']
     })
   ]
